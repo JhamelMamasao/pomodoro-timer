@@ -10,7 +10,7 @@ export default function Timer() {
     const getModeDuration = (value) => {
       switch (value) {
         case "work":
-          return 1 * 60;
+          return 30 * 60;
         case "longBreak":
           return 15 * 60;
         case "shortBreak":
@@ -22,7 +22,7 @@ export default function Timer() {
     };
 
     const [isRunning, setIsRunning] = useState(false);
-    const [timeLeft, setTimeLeft] = useState(1 * 60);
+    const [timeLeft, setTimeLeft] = useState(30 * 60);
     const [mode, setMode] = useState("work");
     const [cycle, setCycle] = useState(0);
 
