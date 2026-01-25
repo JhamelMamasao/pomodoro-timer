@@ -1,6 +1,6 @@
 import logo from '../assets/logo.svg';
 import logoforWhite from '../assets/logoforWhite.svg';
-import { ModeToggle } from '@/components/ModeToggle';
+import { ModeToggle } from './ModeToggle';
 
 export default function Home() {
     return (

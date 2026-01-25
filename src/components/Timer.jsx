@@ -1,8 +1,7 @@
 import { useState, useEffect } from "react";
-import { AspectRatio } from "@/components/ui/aspect-ratio"
-import { Button } from "@/components/ui/button";
+import { Button } from "./ui/button";
 import { Play, Pause, RotateCcw } from "lucide-react"
-import { useTheme } from "@/components/ThemeProvider"
+import { useTheme } from "./ThemeProvider"
 
 
 export default function Timer() {
